@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="StyleSheet1.css" rel="stylesheet" />
-    <title></title>
+    <title>台北市托嬰中心</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -40,7 +40,7 @@
                                     <%# Eval("DIVISION") %>
                                 </div>
                                 <div class="cell" data-title="Age">
-                                    <%# Eval("REGISTERED") %>
+                                    <%# Eval("ADDRESS") %>
                                 </div>
                                 <div class="cell" data-title="Occupation">
                                     <%# Eval("PHONE") %>
